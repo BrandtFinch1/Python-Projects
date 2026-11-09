@@ -1,0 +1,6 @@
+short_sentence=input("Enter a short sentence: ")
+uppercase_sentence=short_sentence.upper()
+print(uppercase_sentence)
+print("This is the number of characters in the sentence:", len(short_sentence))
+words= short_sentence.split()
+print (words)

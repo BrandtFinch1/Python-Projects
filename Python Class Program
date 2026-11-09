@@ -1,0 +1,30 @@
+macos_version= input("What version of macOS do you use? ")
+
+if macos_version== "Golden Gate":
+    print("You use the latest version of macOS available.")
+
+elif macos_version== "Tahoe":
+    print("You use the previous version of macOS.")
+
+elif macos_version== "Sequoia":
+    print("This was before the liquid glass redesign.")
+
+else:
+    print("You are using a very old version of macOS. You should update soon.")
+
+#Here is the program for the assignment for today
+
+#a = 4
+#b = 3
+#c = a + b
+#print(f"{a}, {b}, {c}")
+
+sum= input("Enter an number to add 1 to 10 times: ")
+
+sum = int(sum)
+
+for i in range (1, 11):
+    sum= sum + 1
+print(f" Sum is {sum}") 
+
+

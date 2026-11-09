@@ -1,0 +1,8 @@
+number1=input("What is the first number? ")
+number2=input("What is the second number? ")
+number1=int(number1)
+number2=int(number2)
+print("The sum is:", number1+number2)
+print("The difference is:", number1-number2)
+print("The product is:", number1*number2)
+print("The quotient is:", number1/number2)

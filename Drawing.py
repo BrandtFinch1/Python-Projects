@@ -1,0 +1,13 @@
+import turtle
+shelly= turtle.Turtle()
+shelly.forward(100)
+shelly.right(90)
+shelly.left(60)
+shelly.backward(100)
+shelly.color('red')
+shelly.circle(10)
+shelly.penup()
+shelly.pendown()
+shelly.reset()
+shelly.goto(35, 80)
+shelly.hideturtle()
